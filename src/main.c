@@ -1,8 +1,8 @@
 #include <pebble.h>
 #include <face.h>
 
-#define show_time_delay 1000;
 AppTimer *timer;
+static int show_time_delay = 1250;
 static bool show_time = false;
 static char the_time[] = "00:00";
 
@@ -16,7 +16,7 @@ void accel_tap_handler(AccelAxisType axis, int32_t direction) {
 	show_time = !show_time;
 	if(show_time){
 		show_message(the_time);
-		timer = app_timer_register(1000, (AppTimerCallback)timer_callback, NULL);
+		timer = app_timer_register(show_time_delay, (AppTimerCallback)timer_callback, NULL);
 	}else{
 		show_message("");
 		show_time = false;
