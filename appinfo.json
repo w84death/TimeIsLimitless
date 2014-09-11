@@ -1,0 +1,25 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "w84death@gmail.com",
+    "longName": "Time Is Limitless",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/infinity_white.png",
+                "name": "infinity_white",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "Time Is Limitless",
+    "uuid": "20bbb523-388f-447f-adeb-50561cd3291a",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
