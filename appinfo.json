@@ -9,6 +9,12 @@
     "resources": {
         "media": [
             {
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "icon",
+                "type": "png"
+            },
+            {
                 "file": "images/infinity_white.png",
                 "name": "infinity_white",
                 "type": "png"
@@ -18,7 +24,7 @@
     "shortName": "Time Is Limitless",
     "uuid": "20bbb523-388f-447f-adeb-50561cd3291a",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "2.0",
     "watchapp": {
         "watchface": true
     }
