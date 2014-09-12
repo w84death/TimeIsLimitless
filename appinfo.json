@@ -24,7 +24,7 @@
     "shortName": "Time Is Limitless",
     "uuid": "20bbb523-388f-447f-adeb-50561cd3291a",
     "versionCode": 1,
-    "versionLabel": "2.0",
+    "versionLabel": "3",
     "watchapp": {
         "watchface": true
     }
