@@ -49,7 +49,7 @@ void vibrate(){
 
 void tick_handler(struct tm *tick_time, TimeUnits units_changed)
 {
-	if(units_changed && HOUR_UNIT){
+	if(units_changed & HOUR_UNIT){
 		vibrate();
 	}
   strftime(the_time, sizeof("00:00"), "%H:%M", tick_time);
